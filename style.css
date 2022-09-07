@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*header stuff*/
+.header-container {
+
+    background-color: darkslategrey;
+    padding: 10px;
+    display:flex;
+    justify-content: space-evenly;
+    border: 1px solid white;
+}
+.header-logo {
+    border: 1px solid white;
+}
+.header-links {
+    border: 1px solid white;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    
+}
+.h1,
+.h2,
+.h3 {
+    border: 1px solid white;
+
+}
+
+/* end header stuff */
+
+.web-container {
+    background-color: darkslategrey;
+    padding: 160px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* info thats held below header */
+
+.info-container {
+    background-color: slategray;
+    padding: 100px;
+    display:flex;
+    justify-content:space-evenly;
+    border: 1px white solid;
+    gap: 50px;
+}
+.info-1 {
+    border: 1px white solid;
+    width:50%;
+    text-align: left;
+    font-size: 30px;
+}
+.info-2 {
+    border: 1px white solid;
+    width: 50%;
+}
+
+/* end of info container */
+
+
+
+/*begin info 2 container*/
+
+.questionmark {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.info2-head {
+    background-color: whitesmoke;
+    text-align:center;
+    font-size: 30px;
+}
+.info2-img-container {
+    background-color: whitesmoke;
+    padding: 160px;
+    display:flex;
+    justify-content:center;
+    align-content:flex-start;
+    flex-wrap: wrap;
+} 
+.info2-text {
+    background-color: whitesmoke;
+    padding: 50px;
+    display:flex;
+    justify-content:center;
+    align-content:flex-start;
+}
+
+/*end info 2 container */
+
+.signup-container{
+    background-color: blue;
+    padding: 120px;
+    display:flex;
+    justify-content:center;
+}
+.footer-container{
+    background-color: slategrey;
+    padding: 40px;
+    display:flex;
+    justify-content:center;
+
+}
