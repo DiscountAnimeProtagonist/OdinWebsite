@@ -85,10 +85,10 @@
 }
 .info2-img-container {
     background-color: whitesmoke;
-    padding: 160px;
+    padding: 10px;
     display:flex;
     justify-content:center;
-    align-content:flex-start;
+    align-items:flex-start;
     flex-wrap: wrap;
 } 
 .info2-text {
@@ -96,7 +96,8 @@
     padding: 50px;
     display:flex;
     justify-content:center;
-    align-content:flex-start;
+    align-items:flex-start;
+    
 }
 
 /*end info 2 container */
